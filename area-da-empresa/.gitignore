@@ -1,0 +1,12 @@
+# Nunca envie chaves e senhas
+.env
+*.env
+!.env.example
+backend/dados/
+*.db
+*.db-wal
+*.db-shm
+
+node_modules/
+dist/
+*.log
